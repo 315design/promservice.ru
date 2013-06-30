@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<title>Контакты - ТК Промсервис</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="" />
-	<meta name="author" content="" />
+	<meta name="description" content="Торговая компания Промсервис: адрес компании пер. Попова, 5 г. Липецк 398016, Россия  7 (4742) 34-99-28 " />
+	<meta name="author" content="Торговая компания Промсервис" />
 	<!-- css -->
 	<link href="/css/bootstrap.css" rel="stylesheet" />
 	<link href="/css/bootstrap-responsive.css" rel="stylesheet" />
@@ -91,11 +91,12 @@
 					<h3>Офис и склад компании</h3>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" itemscope itemtype="http://schema.org/Organization">
 				<div class="span6">
-						<address><i class="icon icon-building"></i>
-							<strong>пер. Попова, 5 </strong><br>
-							г. Липецк 398016, Россия</address>
+						<span itemprop="name">ТК Промсервис</span>
+						<address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><i class="icon icon-building"></i>
+							<strong itemprop="streetAddress">пер. Попова, 5 </strong><br>
+							<span itemprop="addressLocality">г. Липецк</span> <span itemprop="postalCode">398016</span>, <span itemprop="addressCountry">Россия</span></address>
 							<i class="icon-envelope-alt"></i> <span class="email" data-to="email" data-dom="promservice.ru"></a>email &#64; promservice.ru</span><br />
 					<h6>Адрес для писем и счетов-фактур</h6>
 					<i class="icon-envelope"></i>
@@ -105,7 +106,7 @@
 
 					<dl class="dl-horizontal">
 						<dt><i class="icon icon-phone"></i> Телефоны:  7 (4742)</dt>
-						<dd><strong>34-99-28<br />
+						<dd><strong><span itemprop="telephone">34-99-28</span><br />
 							34-62-92<br />
 							34-59-55</strong>
 						</dd>
@@ -113,7 +114,7 @@
 
 					<dl class="dl-horizontal">
 						<dt><i class="icon icon-file-alt"></i> Факс: 7 (4742)</dt>
-						<dd><strong>34-96-66</strong>
+						<dd><strong itemprop="faxNumber">34-96-66</strong>
 
 						</dd>
 					</dl>
@@ -123,27 +124,6 @@
 	</section>
 
 	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="span3">
-					<div class="widget">
-						<h5 class="widgetheading">Контакты</h5>
-						<address>
-							<strong>пер. Попова, 5 </strong><br>
-							г. Липецк 398016, Россия</address>
-					</div>
-				</div>
-				<div class="span9">
-					<div class="widget">
-						<h5 class="widgetheading">&nbsp;</h5>
-						<p>
-							<i class="icon-phone"></i> 7 (4742) 34-99-28 <br>
-							<i class="icon-envelope-alt"></i> <span class="email" data-to="email" data-dom="promservice.ru"></a>email &#64; promservice.ru</span>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div id="sub-footer">
 			<div class="container">
 				<div class="row">
@@ -162,6 +142,16 @@
 <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
 <!-- javascript
     ================================================== -->
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-2184329-16', 'promservice.ru');
+	ga('send', 'pageview');
+
+</script>
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
