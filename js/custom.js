@@ -5,8 +5,8 @@ jQuery(document).ready(function($) {
 
 	(function() {
 
-		var $menu = $('.navigation nav'),
-			optionsList = '<option value="" selected>Go to..</option>';
+		var $menu = $('.navbar.navbar-static-top'),
+			optionsList = '<option value="" selected>Перейти к разделу..</option>';
 
 		$menu.find('li').each(function() {
 			var $this   = $(this),
@@ -25,12 +25,12 @@ jQuery(document).ready(function($) {
 
 			optionsList += '<option value="' + $anchor.attr('href') + '">' + indent + ' ' + $anchor.text() + '</option>';
 		}).end()
-		.after('<select class="selectmenu">' + optionsList + '</select>');
+		.before('<select class="selectmenu span12">' + optionsList + '</select>');
 		
 		$('select.selectmenu').on('change', function() {
 			window.location = $(this).val();
 		});
-		
+
 	})();
 
 	

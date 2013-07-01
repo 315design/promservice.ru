@@ -228,7 +228,11 @@ header .logo {
 	float:left;
 }
 
-header .logo img {
+header .logo {
+  margin:-10px 0 0 0;
+  float:left;
+}
+ img {
 	margin-bottom:10px;
 }
 header .logo h1 {
@@ -2167,8 +2171,6 @@ article img.pull-right, article .align-right{
 		width:784px;
 		margin:0 auto;	
 	}
-
-
 	.navbar .nav {
 		border:none;
 	}	
@@ -2228,11 +2230,14 @@ article img.pull-right, article .align-right{
 
 @media (max-width: 767px) {
 
-  body {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  
+	body {
+	  padding-right: 0;
+	  padding-left: 0;
+	}
+	header .logo {
+	  margin: 10px 7% 10px;
+	}
+
 	#wrapper.boxed{
 		width:90%;
 		margin:0 auto;	
@@ -2261,7 +2266,7 @@ article img.pull-right, article .align-right{
     select.selectmenu  {    
       display: block;
 	  width:100%;
-	  margin-bottom:20px;
+	  margin-bottom:0px;
 	  color:#111;
 	  margin-right:20px;
 	  line-height:30px;
