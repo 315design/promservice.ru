@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8300",
+  "creatorBuild" : "8317",
   "files" : {
     "\/img\/slides\/nivo\/prom_slide2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -33,19 +33,6 @@
       "initialSize" : 67614,
       "fileType" : 4096
     },
-    "\/css\/bootstrap.less" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/bootstrap.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/bootstrap.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/img\/bodybg\/bg3.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -57,16 +44,22 @@
       "initialSize" : 32230,
       "fileType" : 4096
     },
-    "\/img\/bodybg\/bg2.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/css\/bootstrap.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/css\/bootstrap.less",
+      "outputAbbreviatedPath" : "\/css\/bootstrap.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/bodybg\/bg2.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/bodybg\/bg2.png",
-      "initialSize" : 4638,
-      "fileType" : 8192
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 1,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/js\/custom.js" : {
       "ignoreWasSetByUser" : 1,
@@ -78,6 +71,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/custom-ck.js",
       "fileType" : 64
+    },
+    "\/img\/bodybg\/bg2.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/bodybg\/bg2.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/bodybg\/bg2.png",
+      "initialSize" : 4638,
+      "fileType" : 8192
     },
     "\/js\/animate.js" : {
       "ignoreWasSetByUser" : 1,
@@ -110,6 +114,17 @@
       "initialSize" : 74046,
       "fileType" : 4096
     },
+    "\/img\/services_machines.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/services_machines.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/services_machines.jpg",
+      "initialSize" : 26852,
+      "fileType" : 4096
+    },
     "\/services.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -120,15 +135,19 @@
       "fileType" : 2048
     },
     "\/css\/font-awesome.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/css\/font-awesome.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/font-awesome.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
     },
@@ -176,19 +195,6 @@
       "outputAbbreviatedPath" : "\/js\/jquery.ba-cond.min-ck.js",
       "fileType" : 64
     },
-    "\/css\/custom-fonts.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/custom-fonts.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/custom-fonts.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/img\/bodybg\/bg4.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -199,6 +205,17 @@
       "outputAbbreviatedPath" : "\/img\/bodybg\/bg4.png",
       "initialSize" : 137811,
       "fileType" : 8192
+    },
+    "\/img\/office_big.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/office_big.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/office_big.jpg",
+      "initialSize" : 30149,
+      "fileType" : 4096
     },
     "\/js\/jquery.js" : {
       "ignoreWasSetByUser" : 1,
@@ -211,19 +228,6 @@
       "outputAbbreviatedPath" : "\/js\/jquery-ck.js",
       "fileType" : 64
     },
-    "\/css\/bg1.less" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/bg1.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/bg1.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/js\/jquery.easing.1.3.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -235,6 +239,40 @@
       "outputAbbreviatedPath" : "\/js\/jquery.easing.1.3-ck.js",
       "fileType" : 64
     },
+    "\/css\/bg1.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/css\/bg1.less",
+      "outputAbbreviatedPath" : "\/css\/bg1.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 1,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/css\/custom-fonts.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/css\/custom-fonts.less",
+      "outputAbbreviatedPath" : "\/css\/custom-fonts.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/about.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -243,17 +281,6 @@
       "inputAbbreviatedPath" : "\/about.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/img\/bodybg\/bg5.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/bodybg\/bg5.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/bodybg\/bg5.png",
-      "initialSize" : 154492,
-      "fileType" : 8192
     },
     "\/img\/slides\/nivo\/bg-1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -266,16 +293,59 @@
       "initialSize" : 100649,
       "fileType" : 4096
     },
-    "\/css\/animate.less" : {
+    "\/img\/bodybg\/bg5.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/bodybg\/bg5.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/bodybg\/bg5.png",
+      "initialSize" : 154492,
+      "fileType" : 8192
+    },
+    "\/css\/animate.less" : {
+      "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/css\/animate.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/animate.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/img\/demo_room.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/demo_room.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/demo_room.jpg",
+      "initialSize" : 43324,
+      "fileType" : 4096
+    },
+    "\/css\/blue.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/css\/blue.less",
+      "outputAbbreviatedPath" : "\/css\/blue.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 1,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
     },
@@ -289,19 +359,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/app-ck-ck.js",
       "fileType" : 64
-    },
-    "\/css\/blue.less" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/blue.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/blue.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
     },
     "\/img\/bodybg\/bg6.png" : {
       "ignoreWasSetByUser" : 0,
@@ -336,6 +393,28 @@
       "initialSize" : 326,
       "fileType" : 4096
     },
+    "\/img\/office_small.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/office_small.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/office_small.jpg",
+      "initialSize" : 13029,
+      "fileType" : 4096
+    },
+    "\/img\/services_logo.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/services_logo.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/services_logo.jpg",
+      "initialSize" : 20900,
+      "fileType" : 4096
+    },
     "\/img\/bodybg\/bg7.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -348,15 +427,19 @@
       "fileType" : 8192
     },
     "\/css\/style.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/css\/style.less",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/style.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 0,
       "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
     },
@@ -411,6 +494,17 @@
       "initialSize" : 134783,
       "fileType" : 8192
     },
+    "\/img\/services_fabric.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/services_fabric.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/services_fabric.jpg",
+      "initialSize" : 26881,
+      "fileType" : 4096
+    },
     "\/img\/prom_customer_logos.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -445,28 +539,36 @@
       "fileType" : 8192
     },
     "\/css\/overwrite.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/css\/overwrite.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/overwrite.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
     },
     "\/css\/bootstrap-responsive.less" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/css\/bootstrap-responsive.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/bootstrap-responsive.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
+      "ignoreWasSetByUser" : 1,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
     },
@@ -548,7 +650,10 @@
     "sassAutoOutputPathStyle" : 2,
     "stylusAutoOutputPathReplace2" : "css",
     "lessAutoOutputPathStyle" : 2,
+    "lessIECompatibility" : 1,
     "genericWebpageFileExtensionsString" : "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+    "lessStrictUnits" : 0,
+    "lessStrictMath" : 0,
     "coffeeMinifyOutput" : 1,
     "javascriptOutputSuffix" : "-ck",
     "jadeOutputStyle" : 0,
@@ -697,6 +802,7 @@
     "jadeCompileDebug" : 1,
     "slimRailsCompatible" : 0,
     "kitAutoOutputPathReplace2" : "",
+    "lessRelativeURLS" : 0,
     "lessDebugStyle" : 0,
     "javascriptAutoOutputPathRelativePath" : "",
     "slimAutoOutputPathStyle" : 0
